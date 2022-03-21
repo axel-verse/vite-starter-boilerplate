@@ -1,3 +1,5 @@
+![Meganet logo](/public/logo.svg)
+
 # Vite + Vue 3 + VueX + VueRouter + TailwindCSS + a lot of things
 
 ## РУССКИЙ
