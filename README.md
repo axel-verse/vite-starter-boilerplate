@@ -1,7 +1,9 @@
-# РУССКИЙ: Vue 3 + Vite
+# Vite + Vue 3 + VueX + VueRouter + TailwindCSS + a lot of things
+
+## РУССКИЙ
 [For English click here](#english-vue-3--vite)
 
-## В РАЗРАБОТКЕ
+### В РАЗРАБОТКЕ
 
 **Этот шаблон ещё в стадии альфа-версии**
 
@@ -9,7 +11,7 @@
 
 Автор - Александр "axel_verse" Мудров
 
-## Рекомендованые IDE
+### Рекомендованые IDE
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
@@ -17,7 +19,7 @@
 
 - [JetBrains Webstorm](https://www.jetbrains.com/ru-ru/webstorm/)
 
-## В состав шаблона добавлено:
+### В состав шаблона добавлено:
 
 - DayJS
 - ESLint, ESLint Prettier plugin, ESLint Vue plugin
@@ -35,10 +37,10 @@
 
 ---
 
-# ENGLISH: Vue 3 + Vite
+## ENGLISH
 [Нажми здесь, чтобы вернуться к русскоязычному описанию](#русский-vue-3--vite)
 
-## WORK IN PROGRESS
+### WORK IN PROGRESS
 
 **This boilerplate is still in alpha**
 
@@ -46,7 +48,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Modified by Alexander "axel_verse" Mudrov
 
-## Recommended IDE Setup
+### Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
@@ -54,7 +56,7 @@ or
 
 - [JetBrains Webstorm](https://www.jetbrains.com/ru-ru/webstorm/)
 
-## This boilerplate includes:
+### This boilerplate includes:
 
 - DayJS
 - ESLint, ESLint Prettier plugin, ESLint Vue plugin
