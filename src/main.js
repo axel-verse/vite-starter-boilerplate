@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import {router} from "/src/router.js";
+import { router } from '/src/router.js'
 // import {store} from "./store.js";
 
 /*
@@ -15,7 +15,7 @@ const updateSW = registerSW({
 import '/src/styles/app.scss'
 
 createApp(App)
-    // .use(store)              // TODO: create VueX store
-    .use(router)
-    // .use(updateSW)           // TODO: create PWA
-    .mount('#app')
+  // .use(store)              // TODO: create VueX store
+  .use(router)
+  // .use(updateSW)           // TODO: create PWA
+  .mount('#app')

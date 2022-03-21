@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // import { store } from '/src/store.js'
 import { routes } from '/src/router/routes.js'
 
-const dev = import.meta.env.DEV
+// const dev = import.meta.env.DEV
 
 const router = createRouter({
   history: createWebHistory(),
