@@ -34,6 +34,7 @@
 - TailwindCSS, TailwindCSS Typo
 - Vite Plugin Markdown
 - Vite Plugin PWA
+- Vue Meta
 - Vue Router
 - VueX
 
@@ -71,5 +72,6 @@ or
 - TailwindCSS, TailwindCSS Typo
 - Vite Plugin Markdown
 - Vite Plugin PWA
+- Vue Meta
 - Vue Router
 - VueX
