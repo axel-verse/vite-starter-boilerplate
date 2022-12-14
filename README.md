@@ -9,7 +9,7 @@
 
 Этот шаблон должен помочь начать разработку на Vue 3 в Vite. Шаблон использует однофайловые компоненты Vue 3 и синтаксис `<script setup>`, больше информации в [документации](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup).
 
-Автор - Александр "axel_verse" Мудров
+Автор - [Александр "axel_verse" Мудров](https://github.com/axel-verse)
 
 ### Рекомендованые IDE
 
@@ -51,9 +51,9 @@
 ## ENGLISH
 [Нажми здесь, чтобы вернуться к русскоязычному описанию](#russian)
 
-### WORK IN PROGRESS
+This boilerplate should help to start development with Vue 3 and Vite using Vue 3 SFC and `<script setup>` syntax. [Read the docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) for more info.
 
-Created by Alexander "axel_verse" Mudrov
+Created by [Alexander "axel_verse" Mudrov](https://github.com/axel-verse)
 
 ### Recommended IDE Setup
 
