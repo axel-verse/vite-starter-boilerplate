@@ -1,7 +1,7 @@
 {
   "name": "vite-starter-boilerplate",
   "private": true,
-  "version": "0.0.5",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,14 +9,14 @@
     "eslint": "npx eslint --fix ./src/{**/*,*}.{js,vue}"
   },
   "dependencies": {
-    "@vuelidate/core": "^2.0.0-alpha.35",
-    "@vuelidate/validators": "^2.0.0-alpha.27",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "@vueuse/core": "^9.6.0",
+    "@vueuse/head": "^1.0.22",
     "dayjs": "^1.11.0",
-    "redaxios": "^0.4.1",
+    "pinia": "^2.0.28",
     "vue": "^3.2.25",
-    "vue-meta": "^3.0.0-alpha.10",
-    "vue-router": "^4.0.13",
-    "vuex": "^4.0.2"
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
@@ -25,21 +25,22 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "@tailwindcss/typography": "^0.5.2",
-    "@vitejs/plugin-vue": "^2.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.4",
+    "daisyui": "^2.43.2",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.5.0",
+    "eslint-plugin-vue": "^9.8.0",
     "laravel-echo": "^1.11.4",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "pusher-js": "^7.0.6",
     "sass": "^1.49.9",
     "tailwindcss": "^3.0.23",
-    "vite": "^2.8.0",
-    "vite-plugin-md": "^0.11.9",
-    "vite-plugin-pwa": "^0.11.13"
+    "vite": "^4.0.0",
+    "vite-plugin-pwa": "^0.14.0",
+    "vite-plugin-vue-markdown": "^0.22.1"
   }
 }

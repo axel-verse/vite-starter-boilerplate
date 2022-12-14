@@ -1,8 +1,8 @@
 <script setup>
 import Readme from '/README.md'
-import { useMeta } from 'vue-meta'
+import { useHead } from '@vueuse/head'
 
-useMeta({
+useHead({
   title: 'Vite + Vue3 + VueX + VueRouter + TailwindCSS + a lot of things',
 })
 </script>

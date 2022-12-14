@@ -1,19 +1,11 @@
 <script setup>
-import { useMeta } from 'vue-meta'
+import { useHead } from '@vueuse/head'
 
-useMeta({
-  title: '',
-  htmlAttrs: { lang: 'ru' },
+useHead({
+  titleTemplate: (t) => `${t} | Vite Starter Boilerplate`,
 })
 </script>
 
 <template>
-  <metainfo>
-    <template #title="{ content }">
-      {{
-        content ? `${content} | Vue3 Vite Boilerplate` : 'Vue3 Vite Boilerplate'
-      }}
-    </template>
-  </metainfo>
   <router-view></router-view>
 </template>

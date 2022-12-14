@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
+import { createHead } from '@vueuse/head'
+
+import { router } from '/src/router/router.js'
+import '/src/styles/app.scss'
 import App from './App.vue'
 
-import { createMetaManager } from 'vue-meta'
-import { router } from '/src/router.js'
-// import {store} from "./store.js";
+// TODO: remove this comment block below if you do not want PWA. Otherwise uncomment this block
 
 /*
 import {registerSW} from "virtual:pwa-register";
@@ -13,11 +15,8 @@ const updateSW = registerSW({
 })
 */
 
-import '/src/styles/app.scss'
-
 createApp(App)
-  // .use(store)              // TODO: create VueX store
   .use(router)
-  .use(createMetaManager())
-  // .use(updateSW)           // TODO: create PWA
+  .use(createHead())
+  // .use(updateSW)           // TODO: uncomment if PWA is needed. Otherwise remove this line
   .mount('#app')
